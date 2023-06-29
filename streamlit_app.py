@@ -18,4 +18,4 @@ streamlit.multiselect("Pick some Fruits:", list(my_fruit_list.index), ['Avocado'
 streamlit.header('Fruitvice Fruit Advie')
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json)
+streamlit.text(fruityvice_response.json())
